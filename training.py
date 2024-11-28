@@ -10,9 +10,7 @@
 # --------------------------------------------------------
 import subprocess
 
-# Chạy lệnh apt-get để cài đặt các thư viện
-subprocess.run(['apt-get', 'update'], check=True)
-subprocess.run(['apt-get', 'install', '-y', 'curl', 'libssl-dev', 'libcurl4-openssl-dev'], check=True)
+
 
 import argparse
 import datetime
